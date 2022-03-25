@@ -37,7 +37,7 @@ spec:
               value: petclinic-svc
             - name: OTEL_RESOURCE_ATTRIBUTES
               value: application=petclinic
-          image: public.ecr.aws/sumologic/opentelemetry-petclinic:latest
+          image: kisaron5/opentel-tempo:test
           imagePullPolicy: Always
           name: petclinic
           resources:
